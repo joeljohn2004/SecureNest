@@ -1,0 +1,42 @@
+ECHO is on.
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+
+
+# Logs and debug files
+*.log
+*.txt
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Python environment variables (if using a .env file)
+.env
+
+# Compiled object files (for any compiled code)
+*.o
+*.so
+
+# Dependency directories for packaging
+build/
+dist/
+*.egg-info/
+
+# CMake cache and output files (if using CMake with dlib)
+CMakeFiles/
+CMakeCache.txt
+
+# dlib compiled files
+*.dlib_build/
+
+
+# Temporary files created by editors
+*~
+
